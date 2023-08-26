@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+.Navbar {
+  
+  position: fixed;
+  height: 8vh;
+  width: 100%;
+  box-shadow: 0px 2px 6px black;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar ul {
+ 
+  
+
+  height: 8vh;
+  width: 47%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Navbar ul li a {
+  font-family: "Philosopher", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+.Navbar ul li a:hover {
+  color: blueviolet;
+}
+.Navbar ul li .phone {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .Navbar ul li .phone {
+    display: block;
+  }
+  .Navbar ul li .pc {
+    display: none;
+  }
+
+  .Navbar ul {
+    margin-top: 0vh;
+    width: 100%;
+    background-color: #000000;
+  }
+  .Navbar ul li a{
+    color:#FFFFFF ;
+  }
+  .Navbar ul li a:hover{
+    color:rgb(236, 101, 124)
+  }
+}

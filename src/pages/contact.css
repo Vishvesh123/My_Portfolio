@@ -1,0 +1,68 @@
+.Contacts{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  background-color: #19A7CE;
+  font-family: "Philosopher", sans-serif;
+ 
+}
+
+.Contacts .Contact{
+    width: 70%;
+    height: 80vh;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 10px #020202;
+}
+.Contacts .Contact .left-side{
+    margin-left: 80px;
+}
+.Contacts .Contact .right-side{
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.Contacts .Contact .right-side p{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.Contacts .Contact .right-side .follow
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.Contacts .Contact .right-side .follow a{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+@media only screen and (max-width:700px)
+{
+    .Contacts .Contact .left-side{
+display: none;
+    } 
+   .Contacts .Contact{
+        background-color: transparent;
+        box-shadow: 0px 0px 0px #FFFFFF;
+    }
+    .Contacts .Contact .right-side{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    
+    .Contacts .Contact .right-side .follow a{
+      margin-left: 40px;
+    }
+}

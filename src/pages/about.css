@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+}
+.About {
+  background-color: #020202;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Philosopher", sans-serif;
+ 
+}
+.About .about-items {
+  background-color: #85cdfd;
+  width: 47%;
+  height: 98vh;
+  margin-bottom: 2vh;
+}
+.About .about-items .about-item1 {
+  margin-top: 10vh;
+}
+
+.About .about-items .about-item1 .h2-1 {
+  margin-top: 17vh;
+  border-bottom: 4px solid rgb(192, 21, 50);
+  width: 75%;
+  margin-left: 6vw;
+}
+.About .about-items .about-item1 .h2-2 {
+  border-bottom: 4px solid rgb(192, 21, 50);
+  width: 75%;
+  margin-left: 6vw;
+  margin-top: 7vh;
+}
+.About .about-items .about-item1 .h2-3 {
+  border-bottom: 4px solid rgb(192, 21, 50);
+  width: 75%;
+  margin-left: 6vw;
+  margin-top: 7vh;
+}
+.About .about-items .about-item1 p {
+  width: 80%;
+
+  margin-top: 2vh;
+  margin-left: 6vw;
+  font-size: 18px;
+}
+.About .about-items .about-item1 p span {
+  color: red;
+}
+.About .about-items .about-item1 ul li {
+  margin-left: 6vw;
+  margin-top: 2vh;
+  font-size: 18px;
+  width: 75%;
+}
+.About .about-items .about-item1 ol li {
+  margin-left: 6vw;
+  margin-top: 2vh;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+  .About {
+    overflow: hidden;
+    background-color: #85cdfd;
+  }
+  .About .about-items {
+    width: 100%;
+    height: 100vh;
+  }
+  .About .about-items .about-item1 {
+    margin-top: 12vh;
+  }
+  .About .about-items .about-item1 .h2-1 {
+    margin-top: 8vh;
+  }
+
+  .About .about-items .about-item1 .h2-2 {
+    margin-top: 5vh;
+  }
+  .About .about-items .about-item1 .h2-3 {
+    margin-top: 5vh;
+  }
+}
