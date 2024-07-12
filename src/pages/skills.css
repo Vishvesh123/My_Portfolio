@@ -1,60 +1,56 @@
-.Skills{
-    display: flex;
+.Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #19a7ce;
+  height: 100vh;
+}
+.Skills .skills-items {
+  display: flex;
+  width: 50%;
+  margin-top: 110px;
+  justify-content: space-between;
+}
+.Skills .skills-items .skill {
+  display: flex;
+  box-shadow: 0 2px 8px #020202;
+  background-color: #ffffff;
+  width: 30%;
+  height: 30vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Skills .skills-items .skill:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+#jsimg {
+  width: 144px;
+  height: 144px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Skills {
+    height: 100%;
+  }
+  .Skills .skills-items {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   background-color: rgb(7, 202, 241);
-   height: 100vh;
-}
-.Skills .skills-items{
-    display: flex;
-    width: 50%;
-    margin-top: 110px;
-    justify-content: space-between;
-}
-.Skills .skills-items .skill{
-    display: flex;
-   
-    background-color: #FFFFFF;
-    width: 30%;
-    height: 30vh;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-  
-}
-.Skills .skills-items .skill:hover{
-    box-shadow: 0 2px 8px #020202;
-    cursor: pointer;
-}
-#jsimg{
-    width: 144px;
-    height: 144px;
-}
-
-@media only screen and (max-width:700px){
-    .Skills{
-        height: 100%;
-       
-    }
-    .Skills .skills-items{
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-    }
-    .Skills .skills-items .skill{
-        margin-top: 10px;
-        width: 140%;
+  }
+  .Skills .skills-items .skill {
+    margin-top: 10px;
+    width: 140%;
     height: 40vh;
     box-shadow: 0 2px 8px #020202;
-    background-color:transparent;
-    }
-    .Skills .skills-items .skill img{
-        width: 80%;
-    }
-    .Skills #item2{
-        margin-bottom: 20px;
-    }
+    background-color: transparent;
+  }
+  .Skills .skills-items .skill img {
+    width: 80%;
+  }
+  .Skills #item2 {
+    margin-bottom: 20px;
+  }
 }

@@ -2,26 +2,23 @@
   margin: 0px;
 }
 .About {
-  background-color: #020202;
+  background-color: #19a7ce;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Philosopher", sans-serif;
- 
 }
 .About .about-items {
-  background-color: #85cdfd;
+  background-color: #ffffff;
   width: 47%;
-  height: 98vh;
-  margin-bottom: 2vh;
-}
-.About .about-items .about-item1 {
-  margin-top: 10vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .About .about-items .about-item1 .h2-1 {
-  margin-top: 17vh;
   border-bottom: 4px solid rgb(192, 21, 50);
   width: 75%;
   margin-left: 6vw;
@@ -69,9 +66,7 @@
     width: 100%;
     height: 100vh;
   }
-  .About .about-items .about-item1 {
-    margin-top: 12vh;
-  }
+
   .About .about-items .about-item1 .h2-1 {
     margin-top: 8vh;
   }
