@@ -12,15 +12,15 @@ function Projects() {
         <div className="project-item">
           <div className="item">
             <div style={{ textAlign: "center" }}>
-              <a
-                href="https://chat-with-anyone-7150e.web.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={chat} alt="" />
-              </a>
+              <img src={chat} alt="" />
             </div>
-
+            <a
+              href="https://chat-with-anyone-7150e.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
             <ul>
               <li>
                 Developed a simple chatting website. Users can create a room,
@@ -34,7 +34,48 @@ function Projects() {
             </ul>
           </div>
           <div className="item">
+            <div style={{ textAlign: "center" }}>
+              <img src={Dashboard} alt="" />
+            </div>
+            <a
+              href="https://mern-dashboard-iel1.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
+            <ul>
+              <li>
+                The dashboard displays data (fetched from the backend) in a
+                graphical form to users. It is developed using the MERN stack
+                and Chart.js.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="project-item">
+          <div className="item">
+            <div style={{ textAlign: "center" }}>
+              <img src={resume} alt="" />
+            </div>
+            <a
+              href="https://resume-builder-rn31.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
+            <ul>
+              <li>Designed a resume maker website using ReactJS.</li>
+              <li>
+                Also includes a backend for user details It contains only one
+                template that is made by using jsPDF technology.
+              </li>
+            </ul>
+          </div>
+          <div className="item">
             <img src={blog} alt="" />
+            <p style={{ color: "purple" }}>Not Hosted</p>
             <ul>
               <li>
                 This is a web application for creating and displaying blog
@@ -45,46 +86,6 @@ function Projects() {
                 The app includes functionalities for viewing posts on the home
                 page, composing new posts, viewing individual posts, and
                 accessing static "About" and "Contact" pages.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="project-item">
-          <div className="item">
-            <div style={{ textAlign: "center" }}>
-              <a
-                href="https://resume-builder-rn31.onrender.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={resume} alt="" />
-              </a>
-            </div>
-
-            <ul>
-              <li>Designed a resume maker website using ReactJS.</li>
-              <li>
-                Also includes a backend for user details It contains only one
-                template that is made by using jsPDF technology.
-              </li>
-            </ul>
-          </div>
-          <div className="item">
-            <div style={{ textAlign: "center" }}>
-              <a
-                href="https://mern-dashboard-iel1.onrender.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Dashboard} alt="" />
-              </a>
-            </div>
-
-            <ul>
-              <li>
-                The dashboard displays data (fetched from the backend) in a
-                graphical form to users. It is developed using the MERN stack
-                and Chart.js.
               </li>
             </ul>
           </div>

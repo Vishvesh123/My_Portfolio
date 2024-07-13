@@ -34,27 +34,35 @@
   justify-content: space-around;
   border-radius: 10px;
 }
+
 .Project .project-item .item img {
   width: 55%;
-
   box-shadow: 0px 2px 8px #020202;
 }
-.Project .project-item img:hover {
-  cursor: pointer;
+
+.Project .project-item .item a {
+  color: purple;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.Project .project-item .item a:hover {
+  color: #f31559;
 }
 @media only screen and (max-width: 700px) {
   .Project .project-item .item img {
     width: 50%;
   }
+
   .Project .project .project-item .item {
     width: 100%;
     height: 50%;
     margin-top: 25px;
     background-color: transparent;
   }
-  ul {
+  .Project ul {
     display: none;
   }
+
   .Project .project {
     display: flex;
     height: 100%;
